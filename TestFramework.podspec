@@ -79,7 +79,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/nareshnallamsetty/IMIPodTest.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/nareshnallamsetty/IMIPodTest.git", :branch => "master", :tag => "1.0.0" }
+#{ :git => "https://github.com/nareshnallamsetty/IMIPodTest.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
